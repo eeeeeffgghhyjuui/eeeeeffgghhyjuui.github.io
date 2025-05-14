@@ -1,0 +1,54 @@
+{
+    "0": {
+        "img": "assets/tralalero.jpg",
+        "correct": "Tralalero Tralala"
+    },
+    "1": {
+        "img": "assets/diddy.webp",
+        "correct": "P Diddy"
+    },
+    "2": {
+        "img": "assets/patapim.jpg",
+        "correct": "Brr Brr Patapim"
+    },
+    "3": {
+        "img": "assets/skibidi.jpg",
+        "correct": "Skibidi Toilet"
+    },
+    "4": {
+        "img": "assets/ambalabu.jpg",
+        "correct": "Boneca Ambalabu"
+    },
+    "5": {
+        "img": "assets/assassino.jpg",
+        "correct": "Cappuccino Assassino"
+    },
+    "6": {
+        "img": "assets/cappuccina.jpg",
+        "correct": "Ballerina Cappuccina"
+    },
+    "7": {
+        "img": "assets/gusini.jpg",
+        "correct": "Bombombini Gusini"
+    },
+    "8": {
+        "img": "assets/lirili.jpg",
+        "correct": "Lirili Larilla"
+    },
+    "9": {
+        "img": "assets/tung.jpg",
+        "correct": "Tung Tung Tung Sahur"
+    },
+    "10": {
+        "img": "assets/tralaleritos.jpg",
+        "correct": "Los Tralaleritos"
+    },
+    "11": {
+        "img": "assets/trippi.jpg",
+        "correct": "Trippi Troppi"
+    },
+    "12": {
+        "img": "assets/bombardiro.jpg",
+        "correct": "Bombardiro Crocodilo"
+    }
+}

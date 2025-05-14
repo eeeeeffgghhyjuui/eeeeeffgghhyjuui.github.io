@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
+#smiley {
+    position: absolute;
+    display: flex;
+    height: 64px;
+    width: 64px;
+    left:4px;
+    top:4px;
+}
+
+#score {
+    position: absolute;
+    display: flex;
+    left:78px;
+    top:20px;
+    font-size: 24px;    
+    font-weight: 300;
+}
+
+
+
+
+* {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f5f5f5;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #242222;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 360px;
+    border-radius: 18px;
+    object-fit: fill;
+    border: 2px solid #ffffff01;
+}
+
+button {
+    width: 16vw;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-bottom background-color 0.3s ease;
+    color: #fff;
+    flex: 0 1 45%;
+    max-width: 300px;
+    height: auto;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.15); /* fallback default */
+}
+
+
+#btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px; /* Optional: adds spacing between buttons */
+    margin-top: 20px; /* Optional: space above buttons */
+}
+
+/* Unique styles for each button ID */
+#btn-1 {
+    background-color: #007bff;
+    border-bottom: 4px solid #0056b3; /* Darker shade */
+}
+#btn-1:hover {
+    background-color: #0056b3;
+    border-bottom: 4px solid #003d80; /* Even darker for hover */
+}
+
+#btn-2 {
+    background-color: #28a745;
+    border-bottom: 4px solid #1c7c31; /* Darker shade */
+}
+#btn-2:hover {
+    background-color: #1c7c31;
+    border-bottom: 4px solid #155c24; /* Even darker for hover */
+}
+
+#btn-3 {
+    background-color: #ffc107;
+    color: #111;
+    border-bottom: 4px solid #e0a800; /* Darker shade */
+}
+#btn-3:hover {
+    background-color: #e0a800;
+    border-bottom: 4px solid #b38600; /* Even darker for hover */
+}
+
+#btn-4 {
+    background-color: #dc3545;
+    border-bottom: 4px solid #b02a37; /* Darker shade */
+}
+#btn-4:hover {
+    background-color: #b02a37;
+    border-bottom: 4px solid #891f2b; /* Even darker for hover */
+}
+
